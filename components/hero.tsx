@@ -39,6 +39,7 @@ export function Hero() {
             src="/images/hero-child.jpg"
             alt="A confident child speaking at a podium in a warm classroom setting"
             fill
+            sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-cover"
             priority
           />
