@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { MessageCircle, Menu, X } from "lucide-react"
 
-const WHATSAPP_URL = "https://wa.me/1234567890?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20Budding%20Voice."
+const WHATSAPP_URL = "https://wa.me/+60174885368?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20Budding%20Voice."
 
 const NAV_LINKS = [
   { label: "The Challenge", href: "#challenge" },
@@ -25,11 +25,10 @@ export function Header() {
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
           ? "bg-card/95 backdrop-blur-md shadow-sm"
           : "bg-transparent"
-      }`}
+        }`}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-8">
         {/* Logo */}

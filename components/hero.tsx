@@ -1,7 +1,7 @@
 import { MessageCircle } from "lucide-react"
 import Image from "next/image"
 
-const WHATSAPP_URL = "https://wa.me/1234567890?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20Budding%20Voice."
+const WHATSAPP_URL = "https://wa.me/+60174885368?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20Budding%20Voice."
 
 export function Hero() {
   return (
