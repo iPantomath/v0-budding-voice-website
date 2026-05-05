@@ -4,7 +4,7 @@ const STEPS = [
   {
     icon: Search,
     step: "01",
-    title: "Diagnose",
+    title: "Assess",
     description: "We assess your child's communication strengths and areas of growth through a personalized evaluation.",
   },
   {
@@ -32,7 +32,7 @@ export function Process() {
     <section id="process" className="bg-muted/40 py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="mx-auto mb-12 max-w-2xl text-center lg:mb-16">
-          <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-wider text-secondary">
+          <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-wider text-secondary-foreground">
             How It Works
           </span>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-primary md:text-4xl">
@@ -54,7 +54,7 @@ export function Process() {
               <div className="relative z-10 mb-4 flex h-16 w-16 items-center justify-center rounded-full border-4 border-background bg-secondary text-secondary-foreground shadow-md">
                 <item.icon className="h-7 w-7" />
               </div>
-              <span className="mb-1 text-xs font-bold uppercase tracking-widest text-secondary">
+              <span className="mb-1 text-xs font-bold uppercase tracking-widest text-secondary-foreground">
                 Step {item.step}
               </span>
               <h3 className="mb-2 text-lg font-bold text-primary">{item.title}</h3>

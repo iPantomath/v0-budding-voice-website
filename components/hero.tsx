@@ -12,11 +12,11 @@ export function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 lg:grid-cols-2 lg:gap-16 lg:px-8">
         {/* Copy */}
         <div className="flex flex-col items-start gap-6">
-          <span className="inline-block rounded-full bg-secondary/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-secondary">
+          <span className="inline-block rounded-full bg-secondary/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-secondary-foreground">
             Communication Coaching for Kids
           </span>
           <h1 className="text-balance text-4xl font-extrabold leading-tight tracking-tight text-primary md:text-5xl lg:text-6xl">
-            Help your child speak with clarity and confidence.
+            Help your child speak with clarity and confidence
           </h1>
           <p className="max-w-lg text-lg leading-relaxed text-muted-foreground">
             For kids & teens who struggle to express themselves socially and on
@@ -36,7 +36,7 @@ export function Hero() {
         {/* Image */}
         <div className="relative aspect-[4/3] overflow-hidden rounded-2xl shadow-2xl">
           <Image
-            src="/images/hero-child.jpg"
+            src="/images/budding-voice-students.jpg"
             alt="A confident child speaking at a podium in a warm classroom setting"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"

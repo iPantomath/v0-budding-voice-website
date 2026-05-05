@@ -24,7 +24,7 @@ export function Challenge() {
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         {/* Section heading */}
         <div className="mx-auto mb-12 max-w-2xl text-center lg:mb-16">
-          <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-wider text-secondary">
+          <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-wider text-secondary-foreground">
             The Challenge
           </span>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-primary md:text-4xl">
@@ -41,7 +41,7 @@ export function Challenge() {
               className="group rounded-2xl border border-border bg-card p-8 transition-all hover:border-secondary/40 hover:shadow-lg"
             >
               <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-secondary/10 text-secondary transition-colors group-hover:bg-secondary group-hover:text-secondary-foreground">
-                <item.icon className="h-6 w-6" />
+                <item.icon className="h-6 w-6 text-secondary-foreground" />
               </div>
               <h3 className="mb-2 text-lg font-bold text-primary">{item.title}</h3>
               <p className="leading-relaxed text-muted-foreground">

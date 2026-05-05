@@ -11,7 +11,7 @@ export function Solution() {
     <section id="solution" className="bg-primary py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="mx-auto max-w-3xl text-center">
-          <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-wider text-secondary">
+          <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-wider text-secondary-foreground">
             Our Solution
           </span>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-primary-foreground md:text-4xl">

@@ -2,18 +2,18 @@ import { GraduationCap, Info } from "lucide-react"
 
 const LEVELS = [
   {
-    label: "Beginner",
-    age: "Ages 6-9",
+    label: "Kaizen",
+    age: "Ages 4-6",
     description: "Foundational expression, basic storytelling, and social interaction skills.",
   },
   {
-    label: "Intermediate",
-    age: "Ages 10-13",
+    label: "Orator",
+    age: "Ages 7-12",
     description: "Structured presentations, debate basics, and improvisational confidence.",
   },
   {
-    label: "Advanced",
-    age: "Ages 14-18",
+    label: "Apex",
+    age: "Ages 13-17",
     description: "Public speaking mastery, leadership communication, and stage performance.",
   },
 ]
@@ -23,7 +23,7 @@ export function WhoItsFor() {
     <section id="who" className="py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="mx-auto mb-12 max-w-2xl text-center lg:mb-16">
-          <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-wider text-secondary">
+          <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-wider text-secondary-foreground">
             Who It&apos;s For
           </span>
           <h2 className="text-balance text-3xl font-bold tracking-tight text-primary md:text-4xl">
@@ -42,11 +42,11 @@ export function WhoItsFor() {
               key={level.label}
               className="rounded-2xl border border-border bg-card p-8 text-center transition-all hover:border-secondary/40 hover:shadow-lg"
             >
-              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-secondary/10 text-secondary">
+              <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-secondary-foreground">
                 <GraduationCap className="h-6 w-6" />
               </div>
               <h3 className="text-lg font-bold text-primary">{level.label}</h3>
-              <p className="mb-3 text-sm font-medium text-secondary">{level.age}</p>
+              <p className="mb-3 text-sm font-medium text-secondary-foreground">{level.age}</p>
               <p className="leading-relaxed text-muted-foreground">
                 {level.description}
               </p>
