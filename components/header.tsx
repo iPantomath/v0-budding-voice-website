@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { MessageCircle, Menu, X } from "lucide-react"
+import Image from "next/image"
 
 const WHATSAPP_URL = "https://wa.me/+60174885368?text=Hi%2C%20I%27d%20like%20to%20know%20more%20about%20Budding%20Voice."
 
@@ -26,15 +27,22 @@ export function Header() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled
-          ? "bg-card/95 backdrop-blur-md shadow-sm"
-          : "bg-transparent"
+        ? "bg-card/95 backdrop-blur-md shadow-sm"
+        : "bg-transparent"
         }`}
     >
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:px-8">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 lg:px-8">
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-secondary">
-            <span className="text-lg font-bold text-secondary-foreground">B</span>
+          <div className="flex h-9 w-9 items-center justify-center">
+            <Image
+              src="/images/budding-voice-logo-1.png"
+            alt="Budding Voice"
+            width={128} 
+            height={128}
+            className="object-cover"
+            priority
+            />
           </div>
           <span className="text-lg font-bold tracking-tight text-primary">
             Budding Voice
@@ -60,7 +68,7 @@ export function Header() {
             href={WHATSAPP_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-secondary px-5 py-2.5 text-sm font-semibold text-secondary-foreground transition-all hover:brightness-110"
+            className="inline-flex items-center gap-2 rounded-full bg-whatsapp px-5 py-2.5 text-sm font-semibold text-white transition-all hover:brightness-110"
           >
             <MessageCircle className="h-4 w-4" />
             <span className="hidden sm:inline">WhatsApp Us</span>

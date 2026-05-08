@@ -5,12 +5,15 @@ import { Solution } from "@/components/solution"
 import { WhoItsFor } from "@/components/who-its-for"
 import { Process } from "@/components/process"
 import { Outcomes } from "@/components/outcomes"
+import { Partners } from "@/components/partners"
+import { OurBranches } from "@/components/our-branches"
 import { FinalCTA } from "@/components/final-cta"
 import { Footer } from "@/components/footer"
 
 export default function Page() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen bg-white">
+      <div className="mx-auto max-w-6xl shadow-xl overflow-hidden">
       <Header />
       <Hero />
       <Challenge />
@@ -18,8 +21,11 @@ export default function Page() {
       <WhoItsFor />
       <Process />
       <Outcomes />
+      <Partners/>
+      <OurBranches/>
       <FinalCTA />
       <Footer />
+      </div>
     </main>
   )
 }
