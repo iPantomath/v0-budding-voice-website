@@ -12,7 +12,7 @@ export function Hero() {
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-4 lg:grid-cols-2 lg:gap-16 lg:px-8">
         {/* Copy */}
         <div className="flex flex-col items-start gap-6">
-          <span className="inline-block rounded-full bg-secondary/15 py-1.5 text-5xl font-semibold uppercase tracking-wider text-secondary-foreground">
+          <span className="inline-block rounded-full bg-secondary/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-secondary-foreground">
             Communication Coaching 
             for Kids
           </span>
