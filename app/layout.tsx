@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata, Viewport } from 'next'
 import { Inter } from 'next/font/google'
 
@@ -24,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={_inter.variable}>
-      <body className="font-sans antialiased">{children}</body>
+      <body className="font-sans antialiased">{children}
+        <Analytics />
+      </body>
     </html>
   )
 }
