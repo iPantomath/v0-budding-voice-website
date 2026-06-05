@@ -29,7 +29,7 @@ const STEPS = [
 
 export function Process() {
   return (
-    <section id="process" className="bg-muted/40 py-16 lg:py-24">
+    <section id="process" className="bg-muted py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="mx-auto mb-12 max-w-2xl text-center lg:mb-16">
           <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-wider text-secondary-foreground">

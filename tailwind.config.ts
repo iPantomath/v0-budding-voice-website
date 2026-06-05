@@ -32,6 +32,14 @@ const config: Config = {
           DEFAULT: 'hsl(var(--secondary))',
           foreground: 'hsl(var(--secondary-foreground))',
         },
+        whatsapp: {
+          DEFAULT: 'hsl(var(--whatsapp-green))',
+          foreground: 'hsl(var(--whatsapp-green))',
+        },
+        white: {
+          DEFAULT: 'hsl(var(--primary-white))',
+          foreground: 'hsl(var(--primary-white))',
+        },
         muted: {
           DEFAULT: 'hsl(var(--muted))',
           foreground: 'hsl(var(--muted-foreground))',

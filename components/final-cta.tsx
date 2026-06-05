@@ -17,7 +17,7 @@ export function FinalCTA() {
           href={WHATSAPP_URL}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-8 inline-flex items-center gap-2 rounded-full bg-secondary px-8 py-4 text-base font-semibold text-secondary-foreground shadow-lg shadow-secondary/25 transition-all hover:brightness-110"
+          className="mt-8 inline-flex items-center gap-2 rounded-full bg-whatsapp px-8 py-4 text-base font-semibold text-white shadow-lg shadow-secondary/25 transition-all hover:brightness-110"
         >
           <MessageCircle className="h-5 w-5" />
           WhatsApp Us
