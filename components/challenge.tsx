@@ -38,13 +38,13 @@ export function Challenge() {
           {CHALLENGES.map((item) => (
             <div
               key={item.title}
-              className="group rounded-2xl border border-border bg-card p-8 transition-all hover:border-secondary/40 hover:shadow-lg"
+              className="group rounded-2xl border border-border bg-card p-8 transition-all"
             >
-              <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-secondary/10 text-secondary transition-colors group-hover:bg-secondary group-hover:text-secondary-foreground">
-                <item.icon className="h-6 w-6 text-secondary-foreground" />
+              <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-secondary/10 text-secondary transition-colors border border-secondary">
+                <item.icon className="h-6 w-6 text-secondary-foreground " />
               </div>
-              <h3 className="mb-2 text-lg font-bold text-primary">{item.title}</h3>
-              <p className="leading-relaxed text-muted-foreground">
+              <h3 className="mb-2 items-center justify-center flex text-lg font-bold text-primary">{item.title}</h3>
+              <p className="leading-relaxed text-muted-foreground flex text-center">
                 {item.description}
               </p>
             </div>

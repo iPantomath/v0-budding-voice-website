@@ -44,7 +44,7 @@ export function Header() {
             priority
             />
           </div>
-          <span className="text-lg font-bold tracking-tight text-primary">
+          <span className="text-lg font-bold tracking-tight text-black">
             Budding Voice
           </span>
         </a>

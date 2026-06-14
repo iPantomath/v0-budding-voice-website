@@ -68,10 +68,10 @@ export function OurBranches() {
                             {/* Content */}
                             <div className="mt-5 space-y-3">
                                 <div>
-                                    <h3 className="text-xl font-bold text-gray-900">
+                                    {/* <h3 className="text-xl font-bold text-gray-900">
                                         <span>🏛️</span>
                                         {branch.city}
-                                    </h3>
+                                    </h3> */}
 
                                     <p className="text-gray-500">
                                         <span>📍</span>
